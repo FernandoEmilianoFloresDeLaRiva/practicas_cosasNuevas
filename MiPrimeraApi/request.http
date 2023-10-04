@@ -1,0 +1,23 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "correo" : "emilianoflores07081@gmail.com",
+    "clave" : "C1234"
+}
+
+###
+DELETE http://localhost:9000/api/emilianoflores07081@gmail.com HTTP/1.1
+
+###
+PUT http://localhost:9000/api/emilianoflores07081@gmail.com HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "clave" : "C1234"
+}
